@@ -78,6 +78,11 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@bugsnag/browser@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@bugsnag/browser/-/browser-6.3.0.tgz#0c8bcf3fb2dfe8aa0b97f59cfcd43c55a7bd8fbc"
+  integrity sha512-IS9s4WkgDMn9CE0qoo8mZE7blPvWy8mnFPxO1AAE8oewqUw3hWV5Fv+FFgHe+kB8oLaW+2E1EFG5E7xHS3ytxg==
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -1145,6 +1150,7 @@ debug@^3.1.0:
 decamelize@^1.0.0, decamelize@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
+  integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
   version "0.2.0"
@@ -2209,6 +2215,7 @@ isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
 iserror@^0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/iserror/-/iserror-0.0.2.tgz#bd53451fe2f668b9f2402c1966787aaa2c7c0bf5"
+  integrity sha1-vVNFH+L2aLnyQCwZZnh6qix8C/U=
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -3523,6 +3530,7 @@ run-async@^2.2.0:
 run-parallel@^1.1.2:
   version "1.1.9"
   resolved "https://registry.yarnpkg.com/run-parallel/-/run-parallel-1.1.9.tgz#c9dd3a7cf9f4b2c4b6244e173a6ed866e61dd679"
+  integrity sha512-DEqnSRTDw/Tc3FXf49zedI638Z9onwUotBMiUFKmrO2sdFKIbXamXGQ3Axd4qgphxKB4kw/qP1w5kTxnfU1B9Q==
 
 rx-lite-aggregates@^4.0.8:
   version "4.0.8"
@@ -4188,6 +4196,7 @@ xml-name-validator@^2.0.1:
 xtend@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
+  integrity sha1-pcbVMr5lbiPbgg77lDofBJmNY68=
 
 y18n@^3.2.1:
   version "3.2.1"

@@ -1,9 +1,8 @@
-/* global ErrorUtils, __DEV__ */
+/* global __DEV__ */
 
-import { NativeModules } from 'react-native'
+import { ErrorUtils } from 'react-native'
 import serializeForNativeLayer from './NativeSerializer'
-
-const NativeClient = NativeModules.BugsnagReactNative
+import NativeClient from './ClientWrapper'
 
 const BREADCRUMB_MAX_LENGTH = 30
 const CONSOLE_LOG_METHODS = [ 'log', 'debug', 'info', 'warn', 'error' ].filter(method =>
